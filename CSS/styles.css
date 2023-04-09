@@ -1,6 +1,6 @@
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     min-width: 100%;
     min-height: 100%;
@@ -12,29 +12,29 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 64px;
+    padding: 4rem;
 }
 
 .right img {
-    width: 550px;
-    height: 450px;
-    padding-left: 30px;
+    width: 34.375rem;
+    height: 28.125rem;
+    padding: left 1.875rem;
     border-radius: 8%;
 }
 
 .left {
-    margin-left: 3px;
+    margin-left: 0.188rem;
 }
 
 .left h1 {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 65px;
+    font-size: 3rem;
+    line-height: 4.063rem;
 
     color: rebeccapurple;
-    margin-bottom: 32px;
+    margin-bottom: 2.063rem;
    
 }
 
@@ -44,8 +44,8 @@ body{
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 1.5rem;
+    line-height: 2.063rem;
     color: white;
 }
 
@@ -54,42 +54,42 @@ button {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.125rem;
+    line-height: 1.563rem;
     border: none;
     transition: all 0.5s;
 }
 
 button:hover {
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(46, 11, 143, 0.5));
-    filter: drop-shadow(15px 10px 5px rgba(92, 20, 224, 0.5));
+    -webkit-filter: drop-shadow(0.938rem 0.625rem 0.313rem rgba(46, 11, 143, 0.5));
+    filter: drop-shadow(0.938rem 0.625rem 0.313rem rgba(92, 20, 224, 0.5));
 }
 
 .general-container-button {
     display: flex;
     justify-content: space-evenly;
-    gap: 40px;
-    margin-top: 60px;
+    gap: 2.5rem;
+    margin-top: 3.75rem;
 
 }
 
 .btn-green {
-    width: 192px;
-    height: 48px;
+    width: 12rem;
+    height: 3rem;
     background:rebeccapurple;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
     cursor: pointer;
     color: white;
 }
 
 .btn-edge-green {
-    width: 192px;
-    height: 48px;
+    width: 12rem;
+    height: 3rem;
     background: #FFFFFF;
-    border: 2px solid rebeccapurple;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
+    border: 0.125rem solid rebeccapurple;
+    box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
     cursor: pointer;
     color:rebeccapurple;
 
@@ -100,7 +100,7 @@ button:hover {
 }
 
 .div-green-Line h2 {
-    margin-left: 24px;
+    margin-left: 1.5rem;
 }
 
 .green-Line {
@@ -114,8 +114,8 @@ h2 {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1rem;
+    line-height: 1.375rem;
     cursor: pointer;
 }
 
@@ -127,7 +127,7 @@ h2 {
 
 header {
     width: 100%;
-    height: 60px;
+    height: 3.75rem;
     background: #EEEEEE;
     display: flex;
     align-items: center;
@@ -146,13 +146,13 @@ header {
     }
   }
 header h1 {
-    padding-left: 64px;
+    padding-left: 4rem;
 
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 2rem;
+    line-height: 2.75rem;
     cursor: pointer;
     color: white;
 }
@@ -161,8 +161,8 @@ nav li {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1rem;
+    line-height: 1.375rem;
     cursor: pointer;
     display: flex;
     color: white;
@@ -176,23 +176,86 @@ a {
 
 ul {
     display: flex;
-    gap: 40px;
+    gap: 2.5rem;
 
 }
 
 .optionsheader {
     display: flex;
-    gap: 40px;
-    padding-right: 40px;
+    gap: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 
     .footer-navigation {
         display: flex;
-        gap: 40px;
-        margin-top: 30px;
-        margin-left: 64px;
+        gap: 2.5rem;
+        margin-top: 1.875rem;
+        margin-left: 4rem;
     }
 
+    @media (max-width: 602px) {
+
+        body{
+            background-color:white;
+          
+       
+        }
+        .general-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 4rem;
+    
+        }
+        .left h1 {
+            color: #f015b9;
+        }
+        .left h2{
+            color: #1F1F1F;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            padding-bottom: 32px;
+        }
+     .green-Line {
+        background-color: #f015b9;
+        }
+
+        .right img{
+            width: 400px;
+            height: 300px;
+            padding: 15px;
+        }
+        
+        header{
+            animation: changeBackgroundColor 7s infinite;  
+     
+        }
+
+    
+        @keyframes changeBackgroundColor {
+            0% {
+              background-color: #e921a6;
+            }
+            50% {
+              background-color: #b8180c;
+            }
+            100% {
+              background-color: #700715;
+            }
+          }
+
+          header h1 {
+            font-family: 'Nunito';
+font-size: small;
+          }
+          
+          button {
+            display: none;
+          }
+      }
 
 
