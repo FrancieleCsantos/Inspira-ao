@@ -103,8 +103,8 @@ button:hover {
 }
 
 .green-Line {
-  width: 10px;
-  height: 132px;
+  width: 0.625rem;
+  height: 8.25rem;
   background: rebeccapurple;
 }
 
@@ -209,16 +209,16 @@ ul {
     font-family: "Nunito";
     font-weight: 200;
     font-size: larger;
-    padding-bottom: 32px;
+    padding-bottom: 2rem;
   }
   .green-Line {
     background-color: #f015b9;
   }
 
   .right img {
-    width: 400px;
-    height: 300px;
-    padding: 15px;
+    width: 25rem;
+    height: 18.75rem;
+    padding: 0.938rem;
   }
 
   header {
@@ -240,7 +240,7 @@ ul {
   header h1 {
     font-family: "Nunito";
     font-size: larger;
-    margin-right: 8px;
+    margin-right: 0.5rem;
   }
 
   button {
